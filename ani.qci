@@ -1,0 +1,5 @@
+$sequence "HM_SpawnIn_A_SMGMedium_SoloWorldSpawn_00" {
+    "animations/HM_SpawnIn_A_SMGMedium_SoloWorldSpawn_00.smd"
+    activity "ACT_HM_SpawnIn_A_SMGMedium_SoloWorldSpawn_00" 1
+    // cmdlist arc_ik_hm_spawnin_a_smgmedium_soloworldspawn_00
+}

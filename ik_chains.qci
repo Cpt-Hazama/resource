@@ -1,0 +1,10 @@
+
+// $ikchain "foot_l" "foot_l" Z 0 height 18
+// $ikchain "foot_r" "foot_r" Z 0 height 18
+$ikchain "foot_r" "ValveBiped.Bip01_R_Foot" knee 0.707 -0.707 0
+$ikchain "foot_l" "ValveBiped.Bip01_L_Foot" knee 0.707 -0.707 0
+
+$cmdlist arc_lockfeet {
+    ikrule "foot_l" footstep usesequence
+    ikrule "foot_r" footstep usesequence
+}
